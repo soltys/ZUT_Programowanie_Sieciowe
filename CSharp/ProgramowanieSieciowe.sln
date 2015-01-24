@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base64", "Base64", "{64521C8A-3ADC-456D-A130-34E1E247B3A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64Converter", "Base64Converter\Base64Converter\Base64Converter.csproj", "{F598AE05-7A7B-4D06-BEAA-5F207DA72979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64Converter.Test", "Base64Converter\Base64Converter.Test\Base64Converter.Test.csproj", "{151D5EE7-ACD3-4676-9150-015430EC7E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FTP", "FTP", "{FB2FE946-2992-4475-A484-1B7E307EE0D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPMirror", "FTP\ConsoleApplication2\FTPMirror.csproj", "{C3B55314-F94C-4F4D-AE7C-7015B5844AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPMirror.Tests", "FTP\Mirror.Tests\FTPMirror.Tests.csproj", "{25F3AC8D-3258-4657-9008-9A1E69D1CA40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crawler", "Crawler", "{71351F8A-0A0F-47E9-86B1-9F47315EA5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpCrawler", "HttpCrawler\HttpCrawler\HttpCrawler.csproj", "{2215D967-62FA-476F-B7F2-1B54565C515D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F598AE05-7A7B-4D06-BEAA-5F207DA72979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F598AE05-7A7B-4D06-BEAA-5F207DA72979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F598AE05-7A7B-4D06-BEAA-5F207DA72979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F598AE05-7A7B-4D06-BEAA-5F207DA72979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151D5EE7-ACD3-4676-9150-015430EC7E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151D5EE7-ACD3-4676-9150-015430EC7E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151D5EE7-ACD3-4676-9150-015430EC7E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151D5EE7-ACD3-4676-9150-015430EC7E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B55314-F94C-4F4D-AE7C-7015B5844AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B55314-F94C-4F4D-AE7C-7015B5844AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B55314-F94C-4F4D-AE7C-7015B5844AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B55314-F94C-4F4D-AE7C-7015B5844AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F3AC8D-3258-4657-9008-9A1E69D1CA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F3AC8D-3258-4657-9008-9A1E69D1CA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F3AC8D-3258-4657-9008-9A1E69D1CA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F3AC8D-3258-4657-9008-9A1E69D1CA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2215D967-62FA-476F-B7F2-1B54565C515D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2215D967-62FA-476F-B7F2-1B54565C515D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2215D967-62FA-476F-B7F2-1B54565C515D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2215D967-62FA-476F-B7F2-1B54565C515D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F598AE05-7A7B-4D06-BEAA-5F207DA72979} = {64521C8A-3ADC-456D-A130-34E1E247B3A4}
+		{151D5EE7-ACD3-4676-9150-015430EC7E7F} = {64521C8A-3ADC-456D-A130-34E1E247B3A4}
+		{C3B55314-F94C-4F4D-AE7C-7015B5844AED} = {FB2FE946-2992-4475-A484-1B7E307EE0D9}
+		{25F3AC8D-3258-4657-9008-9A1E69D1CA40} = {FB2FE946-2992-4475-A484-1B7E307EE0D9}
+		{2215D967-62FA-476F-B7F2-1B54565C515D} = {71351F8A-0A0F-47E9-86B1-9F47315EA5B1}
+	EndGlobalSection
+EndGlobal

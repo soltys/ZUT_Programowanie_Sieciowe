@@ -1,0 +1,5 @@
+﻿drwxrwxrwx   1 user     group           0 Dec 29  2012 .
+drwxrwxrwx   1 user     group           0 Oct 08  2010 ..
+-rw-rw-rw-   1 user     group        1441 Jan 16  2013 file.txt
+-rw-rw-rw-   1 user     group      104939 Dec 29  2012 info.php
+-rw-rw-rw-   1 user     group         606 Oct 08  2010 web.config
